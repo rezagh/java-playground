@@ -1,4 +1,4 @@
-package test;
+package lambda;
 
 public interface CheckPerson {
     boolean test(Person p);

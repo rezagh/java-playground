@@ -1,4 +1,4 @@
-package test;
+package lambda;
 
 import java.util.List;
 
@@ -86,6 +86,4 @@ public class LambdaTest {
 			);
 		
 	}
-	
-	
 }
