@@ -4,8 +4,6 @@ public class TestDefault2 implements SomeInterface{
 
 	@Override
 	public void test() {
-		// TODO Auto-generated method stub
-		
 	}
 	
 	@Override
