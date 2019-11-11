@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaTest3",
+            "request": "launch",
+            "mainClass": "lambda.LambdaTest3",
+            "projectName": "Java8"
+        }
+    ]
+}
