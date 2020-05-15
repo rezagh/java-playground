@@ -20,6 +20,17 @@ public class Person {
     public void printPerson() {
         // ...
     }
+	public Person(Sex sex){
+    	this.gender = sex;
+	}
+
+	public Person(){
+	}
+
+	public Person makePerson(Sex sex){
+    	System.out.println("in make person");
+		return  new Person(sex);
+	}
 
 	public String getName() {
 		return name;
