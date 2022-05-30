@@ -38,6 +38,7 @@ public class LambdaTest {
 	public void test1(){
 		List<Person> roster = null;
 		printPersons(roster , new CheckPersonEligibleForSelectiveService());
+
 	}
 	
 

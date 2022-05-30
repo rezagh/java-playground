@@ -23,8 +23,6 @@
 
 
     <dependencies>
-
-
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
@@ -43,6 +41,12 @@
     <artifactId>junit-jupiter-api</artifactId>
     <version>5.5.2</version>
 </dependency>
+
+        <dependency>
+            <groupId>com.launchdarkly</groupId>
+            <artifactId>launchdarkly-java-server-sdk</artifactId>
+            <version>5.0.0</version>
+        </dependency>
 
 
     </dependencies>

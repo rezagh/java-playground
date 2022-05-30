@@ -3,6 +3,7 @@ package reactive;
 import java.util.ArrayList;
 import java.util.List;
 
+import lambda.Person;
 import org.junit.jupiter.api.Test;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
@@ -33,7 +34,7 @@ public class ReactiveTest{
 
     @Test
     public void test_blocking(){
-        Flux.range(1,1000000).map(i -> i-1).log().subscribe();
+        Flux.range(1,100).map(i -> i-1).log().subscribe();
         System.out.println("reza");
     }
 
@@ -113,7 +114,15 @@ public class ReactiveTest{
 
 
     @Test
+    public void test_print(){
+        Mono.just(new Person())
+                .log()
+                .subscribe();
+    }
+
+    @Test
     public void test_defer(){
+        //???
         Mono<Long> clock = Mono.just(System.currentTimeMillis());
         clock.subscribe(aLong -> System.out.println(aLong));
         clock.subscribe(aLong -> System.out.println(aLong));
